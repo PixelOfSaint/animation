@@ -1,0 +1,45 @@
+.dancer-kaif {
+  animation-name: dancer-kaif;
+  animation-duration: 6s;
+  animation-delay: 1s;
+  width: 22px;
+  height: 22px;
+  background-color: cyan;
+  background-image: url(animka.jpg);
+}
+
+@keyframes dancer-kaif {
+  0% {
+    transform: translateX(0px);
+  }
+  10% {
+    transform: translateX(300px);
+  }
+  20% {
+    transform: translate(300px, 250px);
+  }
+  30% {
+    transform: translate(800px, 250px);
+  }
+  40% {
+    transform: translate(800px, 350px);
+  }
+  50% {
+    transform: translate(500px, 350px);
+  }
+  60% {
+    transform: translate(500px, 300px);
+  }
+  70% {
+    transform: translate(300px, 300px);
+  }
+  80% {
+    transform: translate(150px, 250px);
+  }
+  90% {
+    transform: translate(1px, 250px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}/*# sourceMappingURL=style.css.map */
